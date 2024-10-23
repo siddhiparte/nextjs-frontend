@@ -1,5 +1,7 @@
+// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    reactStrictMode: true,
     async rewrites() {
       return [
         {
@@ -10,6 +12,5 @@ const nextConfig = {
     },
   };
   
-  // Use ES module export
   export default nextConfig;
   
