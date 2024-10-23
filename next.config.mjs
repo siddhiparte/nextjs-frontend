@@ -8,8 +8,8 @@ const nextConfig = {
         },
       ];
     },
-  }
+  };
   
-  module.exports = nextConfi
-
-export default nextConfig;
+  // Use ES module export
+  export default nextConfig;
+  
